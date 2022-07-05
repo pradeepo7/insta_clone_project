@@ -213,6 +213,7 @@ class FeedPage extends StatelessWidget {
                                                 ? Colors.grey
                                                 : Colors.green,
                                             child: CircleAvatar(
+                                              backgroundColor: Colors.grey,
                                                 backgroundImage:
                                                 CachedNetworkImageProvider(
                                                     _model.downloadUrl),
